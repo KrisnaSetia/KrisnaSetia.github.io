@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+@media (min-width: 992px) {
+    .body-color{
+        background-color: #fffdfd;
+    }
+    .navbar-brand{
+        font-family: 'Varela Round', sans-serif;
+        font-weight: bold;
+        font-size: 23px;   
+    }
+    .nav-link{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .asset-2{
+        height: 90vh;
+        padding-top: 1rem;
+        padding-left: 5rem;
+    }
+    .margin-primary{
+        margin-left: 4rem;
+    }
+    .margin1{
+        margin-top: 10rem;
+        font-size: 55px;
+        font-family: 'Signika', sans-serif;
+    }
+    .margin2{
+        margin-top: 1rem;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    .start-button{
+        font-family: 'Poppins', sans-serif;
+        background-color: #24A274;
+        border: none;
+        border-radius: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .start-button:hover{
+        background-color: #1f8962;
+
+    }
+    .start-button:default{
+        background-color: #24A274;
+    }
+    .mycontact-button{
+        font-family: 'Poppins', sans-serif;
+        background-color: #fffdfd;
+        color: #24A274;
+        border: solid #24A274;
+        border-radius: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 1rem;
+    }
+    .mycontact-button:hover{
+        background-color: #24A274;
+        border: solid #24A274;;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #24A274;
+        width: auto;
+        margin: auto;
+        padding-bottom:5px ;
+        margin-bottom: -8px;
+    }
+    
+}
