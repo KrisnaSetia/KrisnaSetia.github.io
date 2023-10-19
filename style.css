@@ -39,25 +39,24 @@
         font-family: 'Poppins', sans-serif;
         background-color: #24A274;
         border: none;
-        border-radius: 12px;
+        border-radius: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 15px;
         padding-right: 15px;
+        color: white;
     }
     .start-button:hover{
-        background-color: #1f8962;
-
-    }
-    .start-button:default{
-        background-color: #24A274;
+        background-color: #1a7352;
+        color: white;
+        transition-duration: 450ms;
     }
     .mycontact-button{
         font-family: 'Poppins', sans-serif;
         background-color: #fffdfd;
         color: #24A274;
         border: solid #24A274;
-        border-radius: 12px;
+        border-radius: 15px;
         padding-top: 8px;
         padding-bottom: 8px;
         padding-left: 15px;
@@ -66,7 +65,9 @@
     }
     .mycontact-button:hover{
         background-color: #24A274;
-        border: solid #24A274;;
+        border: solid #24A274;
+        color: white;
+        transition-duration: 450ms;
     }
     .nav-link:hover::after{
         content: '';
