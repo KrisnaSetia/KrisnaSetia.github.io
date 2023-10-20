@@ -46,6 +46,7 @@
         color: white;
     }
     .start-button:hover{
+        text-decoration: none;
         background-color: #1a7352;
         color: white;
         transition-duration: 450ms;
