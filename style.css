@@ -25,7 +25,7 @@
     }
     .margin1{
         margin-top: 10rem;
-        font-size: 55px;
+        font-size: 58px;
         font-family: 'Signika', sans-serif;
     }
     .margin2{
@@ -124,5 +124,14 @@
         height: 35px;
         width: 35px;
     }
-    
+
+    .card-v:hover{
+        transform: scale(1.08);
+        transition-duration: 900ms;
+        box-shadow: #24A274;
+    }
+    .card-title-v{
+        color: #24A274;
+        font-weight: 700;
+    }
 }
