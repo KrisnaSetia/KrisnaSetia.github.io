@@ -134,4 +134,25 @@
         color: #24A274;
         font-weight: 700;
     }
+    .spacing-p{
+        line-height: 0.8;
+    }
+    .submit-button{
+        font-family: 'Poppins', sans-serif;
+        background-color: #24A274;
+        border: none;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+    }
+    .copyright{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        color: white;
+    }
 }
